@@ -15,8 +15,23 @@ Built with **Flask** for the backend and **MySQL** for database management, it o
 - **Database**: MySQL 🗄️
 - **API**: RESTful APIs for data operations ⚡
 
+## 📡 API Endpoints
+### Products
+- **GET /getProducts**: Retrieve all products. 🛍️
+- **POST /insertProduct**: Insert a new product. ➕
+- **POST /deleteProduct**: Delete a product by ID. ❌
+
+### Units of Measure
+- **GET /getUOM**: Retrieve all units of measure. 📏
+
+### Orders
+- **POST /insertOrder**: Insert a new order. 🛒
+- **GET /getAllOrders**: Retrieve all orders. 📊
+
 ### Prerequisites
 - Python 3.x 🐍
 - Flask
 - MySQL
 - Required Python packages (listed in `requirements.txt`)
+
+  
